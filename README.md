@@ -127,12 +127,14 @@ There are multiple ways of getting started with Monica:
 
 ### Requirements
 
-If you want to host it yourself, you need
+If you want to host Monica yourself, you will need a server with:
 
-- PHP 7.4+ or newer
+- PHP 7.4 or newer
 - HTTP server with PHP support (eg: Apache, Nginx, Caddy)
 - Composer
 - MySQL
+
+To successfully build and host Monica, we recommend a system with at least 1.5&thinsp;GB for RAM.  Monica can run on systems with significantly less memory, but due to the high memory requirements of the build process during updates, you may encounter issues and failed builds.
 
 ### Update your instance
 
@@ -304,6 +306,6 @@ Monica uses a lot of open source projects and we thank them with all our hearts.
 
 ## License
 
-Copyright (c) 2016–2021
+Copyright © 2016–2021
 
 Licensed under [the AGPL License](/LICENSE).

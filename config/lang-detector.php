@@ -36,10 +36,13 @@ return [
             'es',
             'fr',
             'he',
+            'id',
             'it',
             'nl',
+            'pt-BR' => 'pt-BR',
             'sv',
             'tr',
+            'vi',
             'zh',
             'zh-TW' => 'zh-TW',
         ])
